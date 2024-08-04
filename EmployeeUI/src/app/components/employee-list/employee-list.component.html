@@ -1,0 +1,227 @@
+
+<div class="container justify-content-center">
+  
+  <div class="row m-3">
+    <div class="search-employee col-3 mb-3">
+      <input type="search" class="form-control" style="border: 1px solid black;" name="search" [(ngModel)]="searchText"
+        placeholder="Search Employee....">
+    </div>
+    <div>
+      <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#AddStudent"> + Add Employee</button>
+    </div>
+      <div class="col-md-12">
+        <div class="d-flex justify-content-center">
+          <div *ngIf="successMessage" class="alert alert-success col-6 text-center" id="AlertDiv" role="alert">
+            <span><b>{{ successMessage }}</b></span>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div *ngIf="deleteMessage" class="alert alert-danger col-6 mx-auto text-center" role="alert">
+            <span><b>{{ deleteMessage }}</b></span>
+          </div>
+        </div>
+        
+        <table class="table  table-bordered table-stripped table-hover">
+          <tr class="table-dark text-white text-center">
+            <!-- <th>EmpId</th> -->
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Salary</th>
+            <th>Email Address</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Department</th>
+            <th>Actions</th>
+          </tr>
+          <tr class="text-center" *ngFor="let Employee of Employees | filter:searchText">
+            <!-- <td>{{Employee.id}}</td> -->
+            <td>{{Employee.empFirstName}}</td>
+            <td>{{Employee.empLastName}}</td>
+            <td>{{Employee.empSalary}}</td>
+            <td>{{Employee.emailAddress}}</td>
+            <td>{{Employee.age}}</td>
+            <td>{{Employee.gender}}</td>
+            <td>{{Employee.department}}</td>
+            <td>
+              <button (click)="openEditModal(Employee)" class="btn btn-warning" data-bs-toggle="modal" [attr.data-bs-target]="'#editEmployee-' + Employee.id"><i class="bi bi-pencil-square"></i></button>            <!-- <button class="btn btn-danger mx-1" type="button" (click)="deleteEmployee(Employee.id)">
+                <i class="bi bi-trash"></i>
+              </button> -->
+              <button class="btn btn-danger mx-1" data-bs-toggle="modal" [attr.data-bs-target]="'#deleteEmployee-' + Employee.id" >
+                <i class="bi bi-trash"></i>
+              </button>       </td>
+          </tr>
+        </table>
+      </div>
+      <div *ngIf="Employees && Employees.length === 0" class=" d-flex justify-content-center">
+        <h3 class="bg-dark text-white m-4 p-2 border rounded">Employees Not Found</h3>
+      </div>
+    </div>
+  </div>
+
+<!-- Adding Employee Modal Starts Here -->
+<div class="modal fade" id="AddStudent" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-white bg-dark">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Add Employee</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="employeeForm" (ngSubmit)="onSubmit($event)">
+          <div class="mb-3">
+            <label for="empFirstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="empFirstName" formControlName="empFirstName">
+            <span *ngIf="employeeForm.get('empFirstName').touched&& employeeForm.get('empFirstName').hasError('required')">Firstname is required</span>
+            <span *ngIf="employeeForm.get('empFirstName').touched&& employeeForm.get('empFirstName').hasError('minlength')">Firstname should be atleast 3 Characters</span>
+            <span *ngIf="employeeForm.get('empFirstName').touched&& employeeForm.get('empFirstName').hasError('maxlength')">Firstname should not exceed 20 Characters</span>
+          </div>
+
+          <div class="mb-3">
+            <label for="empLastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="empLastName" formControlName="empLastName">
+            <span *ngIf="employeeForm.get('empLastName').touched&& employeeForm.get('empLastName').hasError('required')">Lastname is required</span>
+            <span *ngIf="employeeForm.get('empLastName').touched&& employeeForm.get('empLastName').hasError('minlength')">Lastname should have atleast 3 Characters</span>
+            <span *ngIf="employeeForm.get('empLastName').touched&& employeeForm.get('empLastName').hasError('maxlength')">Lastname should not exceed 20 Characters</span>
+
+
+          </div>
+          <div class="mb-3">
+            <label for="empSalary" class="form-label">Salary</label>
+            <input type="number" class="form-control" id="empSalary" formControlName="empSalary">
+            <span *ngIf="employeeForm.get('empSalary').touched&& employeeForm.get('empSalary').hasError('required')">Employee Salary is required</span>
+          </div>
+          <div class="mb-3">
+            <label for="emailAddress">Email Address</label>
+            <input type="email" class="form-control" id="emailAddress" formControlName="emailAddress">
+          </div>
+          <!-- <div class="mb-3">
+            <label for="age">Age</label>
+            <input type="number" class="form-control" id="age" formControlName="age">
+          </div> -->
+          <div class="mb-3">
+            <label for="age">Age</label>
+            <input type="text" class="form-control" id="age" formControlName="age">
+          </div>
+
+          <div class="mb-3">
+            <label for="genderId" class="form-label">Gender</label>
+            <select id="genderId" class="form-select" formControlName="genderId">
+              <option value="">---Select Gender---</option>
+              <option *ngFor="let gender of Genders" [value]="gender.id">{{ gender.genderName }}</option>
+            </select>
+            <span *ngIf="employeeForm.get('genderId').touched&& employeeForm.get('genderId').hasError('required')">Gender is required</span>
+
+          </div>
+
+          <div class="mb-3">
+            <label for="departmentId" class="form-label">Department</label>
+            <select id="departmentId" class="form-select" formControlName="departmentId">
+              <option value="">---Select department---</option>
+              <option *ngFor="let department of Departments" [value]="department.id">{{ department.departmentName }}</option>
+            </select>
+            <span *ngIf="employeeForm.get('departmentId').touched&& employeeForm.get('departmentId').hasError('required')">Department is required</span>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="button" class="mx-1 btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            <button type="submit" class="mx-1 btn btn-dark" >Add</button>
+  
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Adding Employee Modal Ends Here -->
+
+
+
+
+<!-- Delete Employee Modal Starts Here -->
+<div *ngFor="let Employee of Employees">
+  <div class="modal fade" [id]="'deleteEmployee-' + Employee.id" tabindex="-1" aria-labelledby="deleteEmployeeLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h1 class="modal-title text-center fs-5" id="deleteStudentLabel">Delete Employee</h1>
+        </div>
+        <div class="modal-body">
+          <p>Are you sure you want to delete "<span class="text-danger">{{ Employee.empFirstName }} {{Employee.empLastName}}</span>"?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline-danger" (click)="deleteEmployee(Employee.id)" data-bs-dismiss="modal">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Delete Employee Modal Ends Here -->
+
+<!-- Edit Employee Modal Starts Here -->
+ 
+<!-- Modal -->
+
+
+<div *ngFor="let Employee of Employees">
+  <div class="modal fade" [id]="'editEmployee-' + Employee.id" tabindex="-1" aria-labelledby="editEmployeeLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-warning text-dark">
+          <h1 class="modal-title fs-5" [id]="editEmployeeLabel">Edit Employee</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form #editForm="ngForm" (ngSubmit)="onUpdateSubmit()">
+            <div class="mb-3">
+              <label for="EmpFirstName">First Name: </label>
+              <input type="text" id="EmpFirstName" name="EmpFirstName" [(ngModel)]="employeeDetail.empFirstName" required minlength="3" maxlength="20" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="EmpLastName">Last Name: </label>
+              <input type="text" id="EmpLastName" name="EmpLastName" [(ngModel)]="employeeDetail.empLastName" required minlength="3" maxlength="20" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="EmpSalary">Salary</label>
+              <input type="number" id="EmpSalary" name="EmpSalary" [(ngModel)]="employeeDetail.empSalary" required class="form-control">
+            </div>
+
+            <div class="mb-3">
+              <label for="EmailAddress">Email Address</label>
+              <input type="email" id="EmailAddress" name="EmailAddress" [(ngModel)]="employeeDetail.emailAddress" required class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="Age">Age</label>
+              <input type="number" id="Age" name="Age" [(ngModel)]="employeeDetail.age" required class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="Gender">Gender</label>
+              <select id="Gender" name="Gender" [(ngModel)]="employeeDetail.gender" required class="form-control">
+                <option *ngFor="let gender of Genders" [value]="gender.genderName">{{gender.genderName}}</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="Department">Department</label>
+              <select id="Department" name="Department" [(ngModel)]="employeeDetail.department" required class="form-control">
+                <option *ngFor="let department of Departments" [value]="department.departmentName">{{department.departmentName}}</option>
+              </select>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-warning" [disabled]="!editForm.form.valid" data-bs-dismiss="modal">Save changes</button>
+            </div>
+          </form>
+          
+          <!-- <div *ngIf="errorMessage" class="alert alert-danger">
+            {{ errorMessage }}
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Employee Modal Ends Here -->

@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\Project\\EmployeeAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Controllers\\EmployeeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Controllers\\EmployeeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240731100655_FifthMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Migrations\\20240731100655_FifthMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240731061040_FourthMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Migrations\\20240731061040_FourthMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240731044640_ThirdMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Migrations\\20240731044640_ThirdMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\updateEmployeeDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\updateEmployeeDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\Class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\DepartmentDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\DepartmentDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\AddGenderDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\AddGenderDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\EmployeeDisplayDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\EmployeeDisplayDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\DepartmentsDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\DepartmentsDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\GenderDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\GenderDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\AddStudentDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\AddStudentDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\EmployeeDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\EmployeeDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240724074723_SecondaryMigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Migrations\\20240724074723_SecondaryMigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240724074042_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Migrations\\20240724074042_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\Gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Data\\EmployeeDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Data\\EmployeeDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\EmployeeAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240731044640_ThirdMigration.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240731044640_ThirdMigration.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Migrations\\20240731044640_ThirdMigration.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240731044640_ThirdMigration.cs",
+              "RelativeToolTip": "EmployeeAPI\\Migrations\\20240731044640_ThirdMigration.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T04:46:40.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "updateEmployeeDTO.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\updateEmployeeDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\updateEmployeeDTO.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\updateEmployeeDTO.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\updateEmployeeDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T07:57:45.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\Class.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Class.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T07:57:09.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentDTO.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\DepartmentDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\DepartmentDTO.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\DepartmentDTO.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\DepartmentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T11:50:12.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddGenderDTO.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\AddGenderDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\AddGenderDTO.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\AddGenderDTO.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\AddGenderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T10:12:18.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:54:20.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240731061040_FourthMigration.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240731061040_FourthMigration.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Migrations\\20240731061040_FourthMigration.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240731061040_FourthMigration.cs",
+              "RelativeToolTip": "EmployeeAPI\\Migrations\\20240731061040_FourthMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T06:10:40.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240731100655_FifthMigration.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240731100655_FifthMigration.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Migrations\\20240731100655_FifthMigration.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240731100655_FifthMigration.cs",
+              "RelativeToolTip": "EmployeeAPI\\Migrations\\20240731100655_FifthMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:06:55.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeDisplayDTO.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\EmployeeDisplayDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\EmployeeDisplayDTO.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\EmployeeDisplayDTO.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\EmployeeDisplayDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T04:39:38.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepartmentsDTO.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\DepartmentsDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\DepartmentsDTO.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\DepartmentsDTO.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\DepartmentsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:22:37.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenderDTO.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\GenderDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\GenderDTO.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\GenderDTO.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\GenderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:16:46.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddStudentDTO.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\AddStudentDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\AddStudentDTO.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\AddStudentDTO.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\AddStudentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:45:32.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\WeatherForecast.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "EmployeeAPI\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:32:27.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\EmployeeDTO.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\EmployeeDTO.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\EmployeeDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:09:29.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240724074723_SecondaryMigrate.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240724074723_SecondaryMigrate.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Migrations\\20240724074723_SecondaryMigrate.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240724074723_SecondaryMigrate.cs",
+              "RelativeToolTip": "EmployeeAPI\\Migrations\\20240724074723_SecondaryMigrate.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:47:23.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240724074042_InitialCreate.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240724074042_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Migrations\\20240724074042_InitialCreate.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Migrations\\20240724074042_InitialCreate.cs",
+              "RelativeToolTip": "EmployeeAPI\\Migrations\\20240724074042_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:40:42.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\Department.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Department.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:34:35.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Gender.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\Gender.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Gender.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\Gender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:29:45.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Models\\Employee.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeAPI\\Models\\Employee.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:26:52.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Data\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Data\\EmployeeDbContext.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Data\\EmployeeDbContext.cs",
+              "RelativeToolTip": "EmployeeAPI\\Data\\EmployeeDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:09:32.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeAPI\\appsettings.json",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\appsettings.json",
+              "RelativeToolTip": "EmployeeAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-24T07:07:28.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployeeAPI.csproj",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
+              "RelativeDocumentMoniker": "EmployeeAPI\\EmployeeAPI.csproj",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
+              "RelativeToolTip": "EmployeeAPI\\EmployeeAPI.csproj",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-24T07:06:43.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeAPI\\Program.cs",
+              "ToolTip": "D:\\.NET\\Project\\EmployeeAPI\\EmployeeAPI\\Program.cs",
+              "RelativeToolTip": "EmployeeAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:06:35.991Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
